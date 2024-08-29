@@ -1,3 +1,16 @@
-venv/
-__pycache__/
+# Ignore Python compiled files
 *.pyc
+__pycache__/
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore environment variable files
+.env
+
+# Ignore all log files
+*.log
+
+# Ignore specific data files
+data/*.csv
+
